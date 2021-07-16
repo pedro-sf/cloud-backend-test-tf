@@ -39,11 +39,7 @@ Build a GraphQL API that can `create/read/update/delete` user data from a persis
 
 #### Tech Stack
   - **Use Typescript**
-  - **Use Infrastructure-as-code tooling** that can be used to deploy all resources to an AWS account. Examples:
-    - **Terraform (preferred)**
-    - CloudFormation / SAM
-    - Serverless Framework
-    - Feel free to use other IaC tooling if you prefer
+  - **Use Terraform to deploy resources** to an AWS account.
   - Use **AWS Lambda + API Gateway (preferred)** or AWS AppSync
   - Use any AWS Database-as-a-Service persistence store. **DynamoDB is preferred.**
   - Location query must use [NASA](https://api.nasa.gov/) or [Mapbox](https://www.mapbox.com/api-documentation/) APIs to resolve the coordinate based on the address; use AWS Lambda.
@@ -114,6 +110,7 @@ Here's what you should strive for:
 - Good use of current Typescript, Node.js, GraphQL & performance best practices.
 - Solid testing approach.
 - Extensible code and architecture.
+- Great written documentation.
 - Delightful experience for other backend engineers working in this repository
 - Delightful experience for engineers consuming your APIs
 
